@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true,
+        "jsx": "react",
+        "alwaysStrict": true,
+        "experimentalDecorators": true,
+        "lib": [ 
+            "es2016", "dom" 
+        ],
+        "types": [
+            "node"
+        ],
+        "typeRoots": [
+           "node_modules/@types"
+        ]
+    },
+    "files": [
+        "./app/app.ts"
+    ],
+    "exclude": [
+        "node_modules", 
+        "dist"
+    ]
+
+}
